@@ -1,4 +1,4 @@
-# Laboratotio-2-Robotica-Industrial
+# Laboratorio-2-Robotica-Industrial
 
 
 **Juliana Gongora Rasmussen**
