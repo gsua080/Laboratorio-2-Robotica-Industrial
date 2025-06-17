@@ -66,22 +66,23 @@ Luego se creaba un nuevo WorkObject con esos datos y se usaba durante toda la pr
 ---
 ```mermaid
 flowchart TD
-    A(["Inicio"]) --> C{"Esperar señal de inicio DI_01"}
+    A(["Inicio"]) --> C{"¿Señal de inicio DI_01?"}
     C -->|Sí| n1["Se activa el sensor"]
     C -->|No| n2["Permanece en espera"]
-    n1 --> n3["Se activa el movimiento linear del objeto sobre la banda transportadora"]
-    C2 {"Se activa el sensor DO_01"}
-    C2 -->|Sí| n4["Se detiene el mov linear"]
-    C2 -->|NO| n5["Se espera entrada del sensor "]
-    n2 --> n8(["Fin"])
-    n5 --> n8(["Fin"])
-    n4 --> n6 ["Se ejecuta la rutina del numbre y simbolo"]
-    C3 {"Se activa el sensor DO_02"}
-    C3 -->|Sí| Se reinicia  
-    C3-->|No| n8(["Fin"])
+    n1 --> n3["Se activa el movimiento lineal del objeto sobre la banda transportadora"]
+    n3 --> C2{"¿Sensor DO_01 activado?"}
+    C2 -->|Sí| n4["Se detiene el movimiento lineal"]
+    C2 -->|No| n5["Se espera entrada del sensor"]
+    n4 --> n6["Se ejecuta la rutina del nombre y símbolo"]
+    n6 --> C3{"¿Sensor DO_02 activado?"}
+    C3 -->|Sí| R["Se reinicia"]
+    C3 -->|No| n8(["Fin"])
+    n2 --> n8
+    n5 --> n8
 
-    class n1,n2,n3,n4,n7 rounded
-    class n7 diamond
+    class n1,n2,n3,n4,n5,n6,R,n8 rounded
+    class C,C2,C3 diamond
+
 ```
 ### Plano de planta
 ### Descripción de las funciones utilizadas
