@@ -114,10 +114,11 @@ Detecta la presencia de una pieza cuando esta cruza un plano virtual.
 En el proyecto se implementaron distintos tipos de movimiento para controlar con precisión la trayectoria del robot. Cada uno tiene aplicaciones específicas según la etapa del ciclo o el tipo de desplazamiento deseado.
 
 ###  `MoveJ` — Movimiento Articular
-```rapid
-MoveJ pDestino, v100, z10, tool1;
-MoveL pDestino, v50, z5, tool1;
-MoveC pIntermedio, pFinal, v40, z1, tool1;
+`MoveJ pDestino, v100, z10, tool1`;
+###  `MoveL` — Movimiento Lineal
+`MoveL pDestino, v50, z5, tool1`;
+###  `MoveL` — Movimiento Lineal
+`MoveC pIntermedio, pFinal, v40, z1, tool1`;
 
 
 ### Código en RAPID 
