@@ -35,6 +35,8 @@ evidenciamos Problemas con el ajuste y la tolerancia asi que imprimimos otro
 ![PHOTO-2025-06-15-21-43-35 7](https://github.com/user-attachments/assets/d8ceafe2-a50b-4fa2-a7a8-380464b0f0cc)
 ![PHOTO-2025-06-15-21-43-35 3](https://github.com/user-attachments/assets/8896694a-f174-4fad-b2d1-dae528e35c07)
 
+Luego notamos nuevamente problemas con las tolerancias dimensionales asi que realizamos otro montaje que lastimosamente se rompio debido a la equivocacio el la manipulacion de la pieza en la calibración 
+![PHOTO-2025-06-13-08-06-54 2](https://github.com/user-attachments/assets/6aeeded3-d674-4129-91d2-809b1e15ad25)
 
 ### Calibración
 **Herramienta:**
