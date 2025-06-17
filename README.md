@@ -28,7 +28,10 @@ Se desarrolló el diseño de una herramienta para sostener un marcador delgado, 
 En su interior se integraron un resorte y el propio marcador, permitiendo un ajuste mecánico funcional.
 
 La herramienta fue impresa en 3D utilizando filamento PLA, y se fabricaron varios prototipos para pruebas de ajuste, tolerancia y funcionalidad del mecanismo de sujeción.
-![Prototipo numero 1 de la pieza](imgs/PHOTO-2025-06-15-21-43-35 4.jpg)
+![PHOTO-2025-06-15-21-43-35 6](https://github.com/user-attachments/assets/c3875a64-eeb7-476f-84e9-9f5601d0789a)
+![PHOTO-2025-06-15-21-43-35 4](https://github.com/user-attachments/assets/d59ea6c6-7694-4f44-8a65-391367825876)
+
+
 
 ### Calibración
 **Herramienta:**
