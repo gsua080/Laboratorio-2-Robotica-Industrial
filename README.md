@@ -31,6 +31,9 @@ La herramienta fue impresa en 3D utilizando filamento PLA, y se fabricaron vario
 ![PHOTO-2025-06-15-21-43-35 6](https://github.com/user-attachments/assets/c3875a64-eeb7-476f-84e9-9f5601d0789a)
 ![PHOTO-2025-06-15-21-43-35 4](https://github.com/user-attachments/assets/d59ea6c6-7694-4f44-8a65-391367825876)
 
+evidenciamos Problemas con el ajuste y la tolerancia asi que imprimimos otro
+![PHOTO-2025-06-15-21-43-35 7](https://github.com/user-attachments/assets/d8ceafe2-a50b-4fa2-a7a8-380464b0f0cc)
+![PHOTO-2025-06-15-21-43-35 3](https://github.com/user-attachments/assets/8896694a-f174-4fad-b2d1-dae528e35c07)
 
 
 ### Calibración
