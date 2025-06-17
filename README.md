@@ -24,9 +24,13 @@ Este laboratorio tiene como objetivo la programación dek robot ABB IRB 140 con 
 Se implementó el movimiento del robot ABB IRB 140 mediante un programa en lenguaje RAPID previamente desarrollado en RobotStudio. Utilizando un conjunto de instrucciones definidas, así como la configuración de trayectorias y parámetros específicos, se buscó escribir los nombres de las integrantes del grupo, además de trazar una figura correspondiente al diseño del manipulador IRB 140.
 
 ### Diseño de herramienta
+Se desarrolló el diseño de una herramienta para sostener un marcador delgado, compuesta por dos piezas ensamblables: una pieza de soporte y otra de encapsulamiento.
+En su interior se integraron un resorte y el propio marcador, permitiendo un ajuste mecánico funcional.
+
+La herramienta fue impresa en 3D utilizando filamento PLA, y se fabricaron varios prototipos para pruebas de ajuste, tolerancia y funcionalidad del mecanismo de sujeción.
+![Prototipo numero 1 de la pieza](imgsç/PHOTO-2025-06-15-21-43-35 4.jpg)
 
 ### Calibración
-
 **Herramienta:**
 
 Para la herramienta, diseñamos un soporte que permitiera fijar un marcador al flange del robot IRB 140. Luego, hicimos el proceso de calibración directamente con el robot real, usando un objeto para marcar varios puntos con la punta del marcador. Esto nos permitió calcular el TCP (Tool Center Point) desde el controlador.
