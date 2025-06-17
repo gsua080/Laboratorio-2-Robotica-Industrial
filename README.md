@@ -44,6 +44,7 @@ El ensamble resultante es el siguiente :
 ![PHOTO-2025-06-15-21-43-36](https://github.com/user-attachments/assets/11d1d845-628d-44bf-8d07-c0399e014b80)
 
 ### Calibración
+Se realizo la calibración de la herramienta final obteniendo un error final de 6mm
 **Herramienta:**
 
 Para la herramienta, diseñamos un soporte que permitiera fijar un marcador al flange del robot IRB 140. Luego, hicimos el proceso de calibración directamente con el robot real, usando un objeto para marcar varios puntos con la punta del marcador. Esto nos permitió calcular el TCP (Tool Center Point) desde el controlador.
@@ -81,6 +82,33 @@ flowchart TD
 ```
 ### Plano de planta
 ### Descripción de las funciones utilizadas
+##  Smart Components utilizados
+
+En este proyecto se integraron los siguientes **Smart Components** en RobotStudio para simular el flujo del proceso automatizado:
+
+---
+
+###  `Linear_Mover`
+Simula el movimiento lineal de una banda transportadora.
+
+**Funciones principales:**
+- Desplaza la pieza de trabajo en línea recta hasta la zona de manipulación del robot.
+
+**Entradas digitales:**
+- `di_01`: Activa el movimiento de la banda transportadora.
+
+---
+
+###  `Plane Sensor`
+Detecta la presencia de una pieza cuando esta cruza un plano virtual.
+
+**Funciones principales:**
+- Emite una señal digital cuando la pieza llega al área de trabajo del robot.
+
+**Salidas digitales:**
+- `do_01`: Señal de detección activa (pieza lista para ser manipulada por el robot).
+
+---
 ### Código en RAPID 
 La práctica fue desarrollada utilizando un módulo programado en RAPID, el lenguaje propio de los robots ABB. Este codigo implementado se encarga de gestionar por completo el funcionamiento del robot, abarcando tanto sus desplazamientos como el manejo de la herramienta de dibujo.
 ### Vídeo
