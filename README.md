@@ -67,15 +67,18 @@ Luego se creaba un nuevo WorkObject con esos datos y se usaba durante toda la pr
 ```mermaid
 flowchart TD
     A(["Inicio"]) --> C{"Esperar señal de inicio DI_01"}
-    C -->|Sí| n1["Posicionarse en Home"]
-    C -->|No| n2["Esperar señal de mantenimiento"]
-    n1 --> n3["Encender luz indicadora DO_01"]
-    n3 --> n4["Ejecutar trayectoria de dibujo"]
-    n4 --> n5["Dibujo de nombres y figura"]
-    n2 --> n6["Apagar luz DO_01"]
-    n5 --> n7{"Esperar señal de mantenimiento DI_02"}
-    n7 -->|Sí| n6
-    n7 -->|No| n8(["Fin"])
+    C -->|Sí| n1["Se activa el sensor"]
+    C -->|No| n2["Permanece en espera"]
+    n1 --> n3["Se activa el movimiento linear del objeto sobre la banda transportadora"]
+    C2 {"Se activa el sensor DO_01"}
+    C2 -->|Sí| n4["Se detiene el mov linear"]
+    C2 -->|NO| n5["Se espera entrada del sensor "]
+    n2 --> n8(["Fin"])
+    n5 --> n8(["Fin"])
+    n4 --> n6 ["Se ejecuta la rutina del numbre y simbolo"]
+    C3 {"Se activa el sensor DO_02"}
+    C3 -->|Sí| Se reinicia  
+    C3-->|No| n8(["Fin"])
 
     class n1,n2,n3,n4,n7 rounded
     class n7 diamond
