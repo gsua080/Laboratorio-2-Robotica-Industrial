@@ -109,6 +109,17 @@ Detecta la presencia de una pieza cuando esta cruza un plano virtual.
 - `do_01`: Señal de detección activa (pieza lista para ser manipulada por el robot).
 
 ---
+##  Tipos de movimiento utilizados en RAPID
+
+En el proyecto se implementaron distintos tipos de movimiento para controlar con precisión la trayectoria del robot. Cada uno tiene aplicaciones específicas según la etapa del ciclo o el tipo de desplazamiento deseado.
+
+###  `MoveJ` — Movimiento Articular
+```rapid
+MoveJ pDestino, v100, z10, tool1;
+MoveL pDestino, v50, z5, tool1;
+MoveC pIntermedio, pFinal, v40, z1, tool1;
+
+
 ### Código en RAPID 
 La práctica fue desarrollada utilizando un módulo programado en RAPID, el lenguaje propio de los robots ABB. Este codigo implementado se encarga de gestionar por completo el funcionamiento del robot, abarcando tanto sus desplazamientos como el manejo de la herramienta de dibujo.
 ### Vídeo
