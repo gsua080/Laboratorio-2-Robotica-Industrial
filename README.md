@@ -128,5 +128,7 @@ En el proyecto se implementaron distintos tipos de movimiento para controlar con
 ### Código en RAPID 
 La práctica fue desarrollada utilizando un módulo programado en RAPID, el lenguaje propio de los robots ABB. Este codigo implementado se encarga de gestionar por completo el funcionamiento del robot, abarcando tanto sus desplazamientos como el manejo de la herramienta de dibujo.
 ### Vídeo
+[📄 Ver documento en Google Drive](https://drive.google.com/file/d/1Tt4pHwI8nOB_HXqTNW_LAxPO0r0OVOUH/view?usp=sharing)
+
 
 
