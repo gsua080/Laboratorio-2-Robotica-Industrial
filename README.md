@@ -38,6 +38,11 @@ evidenciamos Problemas con el ajuste y la tolerancia asi que imprimimos otro
 Luego notamos nuevamente problemas con las tolerancias dimensionales asi que realizamos otro montaje que lastimosamente se rompio debido a la equivocacio el la manipulacion de la pieza en la calibración 
 ![PHOTO-2025-06-13-08-06-54 2](https://github.com/user-attachments/assets/6aeeded3-d674-4129-91d2-809b1e15ad25)
 
+El ensamble resultante es el siguiente :
+![PHOTO-2025-06-15-21-43-36 6](https://github.com/user-attachments/assets/6b9d427d-4280-46fa-95fc-9bdd1b611193)
+
+![PHOTO-2025-06-15-21-43-36](https://github.com/user-attachments/assets/11d1d845-628d-44bf-8d07-c0399e014b80)
+
 ### Calibración
 **Herramienta:**
 
