@@ -27,21 +27,47 @@ Se implementó el movimiento del robot ABB IRB 140 mediante un programa en lengu
 Se desarrolló el diseño de una herramienta para sostener un marcador delgado, compuesta por dos piezas ensamblables: una pieza de soporte y otra de encapsulamiento.
 En su interior se integraron un resorte y el propio marcador, permitiendo un ajuste mecánico funcional.
 
-La herramienta fue impresa en 3D utilizando filamento PLA, y se fabricaron varios prototipos para pruebas de ajuste, tolerancia y funcionalidad del mecanismo de sujeción.
-![PHOTO-2025-06-15-21-43-35 6](https://github.com/user-attachments/assets/c3875a64-eeb7-476f-84e9-9f5601d0789a)
-![PHOTO-2025-06-15-21-43-35 4](https://github.com/user-attachments/assets/d59ea6c6-7694-4f44-8a65-391367825876)
 
-evidenciamos Problemas con el ajuste y la tolerancia asi que imprimimos otro
-![PHOTO-2025-06-15-21-43-35 7](https://github.com/user-attachments/assets/d8ceafe2-a50b-4fa2-a7a8-380464b0f0cc)
-![PHOTO-2025-06-15-21-43-35 3](https://github.com/user-attachments/assets/8896694a-f174-4fad-b2d1-dae528e35c07)
+<p align="center">
+  <img src="URL" width="45%">
+</p>
+✅ Para centrar texto e imágenes juntos:
+Usa el mismo truco:
 
-Luego notamos nuevamente problemas con las tolerancias dimensionales asi que realizamos otro montaje que lastimosamente se rompio debido a la equivocacio el la manipulacion de la pieza en la calibración 
-![PHOTO-2025-06-13-08-06-54 2](https://github.com/user-attachments/assets/6aeeded3-d674-4129-91d2-809b1e15ad25)
+html
+Copiar
+Editar
+<div align="center">
+  <p>Texto centrado aquí</p>
+  <img src="URL" width="45%">
+</div>
+🎁 Aquí te dejo tu contenido completo, centrado y con las imágenes redimensionadas:
+html
+Copiar
+Editar
+<div align="center">
 
-El ensamble resultante es el siguiente :
-![PHOTO-2025-06-15-21-43-36 6](https://github.com/user-attachments/assets/6b9d427d-4280-46fa-95fc-9bdd1b611193)
+<p>La herramienta fue impresa en 3D utilizando filamento PLA, y se fabricaron varios prototipos para pruebas de ajuste, tolerancia y funcionalidad del mecanismo de sujeción.</p>
 
-![PHOTO-2025-06-15-21-43-36](https://github.com/user-attachments/assets/11d1d845-628d-44bf-8d07-c0399e014b80)
+<img src="https://github.com/user-attachments/assets/c3875a64-eeb7-476f-84e9-9f5601d0789a" width="45%">
+<img src="https://github.com/user-attachments/assets/d59ea6c6-7694-4f44-8a65-391367825876" width="45%">
+
+<p>Evidenciamos problemas con el ajuste y la tolerancia, así que imprimimos otro:</p>
+
+<img src="https://github.com/user-attachments/assets/d8ceafe2-a50b-4fa2-a7a8-380464b0f0cc" width="45%">
+<img src="https://github.com/user-attachments/assets/8896694a-f174-4fad-b2d1-dae528e35c07" width="45%">
+
+<p>Luego notamos nuevamente problemas con las tolerancias dimensionales, así que realizamos otro montaje que lastimosamente se rompió debido a la equivocación en la manipulación de la pieza durante la calibración.</p>
+
+<img src="https://github.com/user-attachments/assets/6aeeded3-d674-4129-91d2-809b1e15ad25" width="45%">
+
+<p>El ensamble resultante es el siguiente:</p>
+
+<img src="https://github.com/user-attachments/assets/6b9d427d-4280-46fa-95fc-9bdd1b611193" width="45%">
+<img src="https://github.com/user-attachments/assets/11d1d845-628d-44bf-8d07-c0399e014b80" width="45%">
+
+
+</div>
 
 ### Calibración
 Se realizo la calibración de la herramienta final obteniendo un error final de 6mm
